@@ -1,0 +1,19 @@
+Window "Favorite Fruit" (600, 200) Layout Flow:
+Label "Enter your Name:";
+Textfield 20;
+Panel Layout Flow:
+Label "Choose Your Favorite Fruit:";
+   Panel Layout Grid(3,2,5,5)
+	Group 
+	  Radio "Strawberries";
+ 	  Radio "Bananas";
+	  Radio "Oranges";
+	  Radio "Cherries";
+	  Radio "Mangoes";
+	  Radio "Kiwi";
+	 End;
+     End;
+  Button "Enter Your Selection";
+End;
+End.
+
